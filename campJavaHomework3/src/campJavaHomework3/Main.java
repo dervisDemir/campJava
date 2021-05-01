@@ -10,7 +10,7 @@ public class Main {
         instructor.setInstructorPassword("Ankara2021");
         instructor.setId(1);
         instructor.setFirstName("Engin");
-        instructor.setLastName("DEMİROĞ");
+        instructor.setLastName("DEMÃROÃ");
         instructor.setEmail("engindemirog@outlook.com");
 
         InstructorManager instructorManager = new InstructorManager();
@@ -26,11 +26,11 @@ public class Main {
         student.setStudentId("beterAnkara");
         student.setStudentPassword("Ankara12");
         student.setId(2);
-        student.setFirstName("Derviş");
-        student.setLastName("DEMİR");
+        student.setFirstName("DerviÃ¾");
+        student.setLastName("DEMÃR");
         student.setEmail("dervisdemirank@hotmail.com");
 
-        StudentManager studentManager = new StudentManager(); // nesne türettik.
+        StudentManager studentManager = new StudentManager();
 
         studentManager.login(student);
         studentManager.addComment(student);
